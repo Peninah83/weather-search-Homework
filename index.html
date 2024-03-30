@@ -10,31 +10,36 @@
     <title>Document</title>
 </head>
 <body>
+  
   <div class="weather-app">
   <header>
-<form>
-  <input type="search"placeholder="Enter a city.."required/>
-  <input type="submit" value="search"/>
+<form  class="search-form">
+  <input type="search"placeholder="Enter a city.."required class="search-form-input"/>
+  <input type="submit" value="search" class="search-form-button"/>
 </form>
   </header>
-  <main>
+  <main> 
+    <div class="weather-app-data">
     <div>
-  <h1>
+     
+  <h1 class="weather-app-city">
     Nairobi
   </h1>
-  <p>
+  <p class="weather-app-details">
     Saturday 21:18, light rain
     <br />
-    humidity: 88%, Wind: 3.09km/h
+    humidity: <strong> 88%</strong>, Wind:<strong>3.09km/h</strong> 
   </p>
 </div>
-<div>
+<div class="weather-app-temparature">
   🌧️19°C
+</div>
 </div>
   </main> 
  <footer>
   This project was Coded by<a href="https://github.com/Peninah83/" target="_blank"> Peninah Njeri</a>, is open-sourced on<a href="https://github.com/Peninah83/weather-search-Homework" target="_blank" > Github</a> hosted <a href="https://weather-search-pesh-app.netlify.app/" target="_blank"> on Netlify</a>
  </footer>
 </div>
+
 </body>
 </html>
